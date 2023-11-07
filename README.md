@@ -31,7 +31,7 @@ Software set:and `ROS Noetic` in `Ubuntu 20.04`.
 
 1. [Download](https://www.coppeliarobotics.com/downloads) and install the CoppeliaSim simulator.
 
-2. Clone to your `catkin_ws`, compile and source the [rosi_model](https://github.com/ITVRoC/rosi_modules) ROS package, which provides needed messages and services for the simulated model.
+2. Clone to your `catkin_ws`, compile and source the [rosi_core](https://github.com/ITVRoC/rosi_core) and [rosi_modules](https://github.com/ITVRoC/rosi_modules) ROS packages, which provide required messages and services for the simulated model. The step-by-step on how compiling them can be found [here](https://github.com/ITVRoC/rosi_modules/wiki/Install)
 
 3. Download and install to your `catkin_ws` the [CoppeliaSim ROS interface](https://github.com/CoppeliaRobotics/simROS). Follow the install instructions from their repository.
 
